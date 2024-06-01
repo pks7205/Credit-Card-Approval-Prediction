@@ -9,13 +9,8 @@ This project focuses on predicting credit card approval using machine learning t
 * Data Preprocessing
 * Exploratory Data Analysis (EDA)
 * Modeling
-* Evaluation
-* Deployment
 * Conclusion
-* Future Work
-* Installation and Usage
-* Contributing
-* License
+
 ## Project Motivation:
 Credit card companies need to assess whether a customer is creditworthy before approving a credit card application. Automating this process using machine learning can save time and reduce human error. This project aims to build a predictive model that can accurately determine the approval status of credit card applications based on applicant information.
 
