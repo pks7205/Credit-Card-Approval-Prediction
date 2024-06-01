@@ -54,7 +54,7 @@ The dataset used in this project is the "Credit Card Approval" dataset, which co
 * Type_Occupation: Occupation
 
 * Family_Members: Family size
-* 
+
 Another data set (Credit_card_label.csv) contains two key pieces of information
 
 * ID: The joining key between application data and credit status data, same is Ind_ID
