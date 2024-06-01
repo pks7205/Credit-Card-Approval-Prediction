@@ -1,4 +1,5 @@
 # Credit-Card-Approval-Prediction
+https://colab.research.google.com/drive/1G6dRhZpkAfc89zHEi1bv9qxoMTrybhPy#scrollTo=UwOCXRyWLXiK
 
 ## Project Overview:
 This project focuses on predicting credit card approval using machine learning techniques. It involves data preprocessing, exploratory data analysis (EDA), model training, evaluation, and deployment. Below is an overview of the project.
