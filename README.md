@@ -20,7 +20,7 @@ This project focuses on predicting credit card approval using machine learning t
 Credit card companies need to assess whether a customer is creditworthy before approving a credit card application. Automating this process using machine learning can save time and reduce human error. This project aims to build a predictive model that can accurately determine the approval status of credit card applications based on applicant information.
 
 ## Dataset:
-The dataset used in this project is the "Credit Card Approval" dataset, which contains various features about the applicants, such as age, income, employment status, and existing credit histor,
+The dataset used in this project is the "Credit Card Approval" dataset, which contains various features about the applicants, such as Gender, Annual income, employment status, and occupation so on ,
 
 * Features name: (Credit_Card.csv)
 
@@ -59,4 +59,45 @@ The dataset used in this project is the "Credit Card Approval" dataset, which co
 * Type_Occupation: Occupation
 
 * Family_Members: Family size
+
+## Data Preprocessing:
+Data preprocessing involves the following steps:
+
+* Handling Missing Values: Impute or remove missing values.
+* Encoding Categorical Variables: Convert categorical variables into numerical format using techniques like one-hot encoding or label encoding.
+* Feature Scaling: Standardize or normalize numerical features to bring them to a common scale.
+* Splitting the Data: Split the dataset into training and testing sets.
+
+## Exploratory Data Analysis (EDA):
+EDA helps in understanding the data distribution, relationships between features, and identifying any patterns. This involves:
+
+* Visualizing the distribution of numerical and categorical features.
+* Analyzing correlations between features.
+* Identifying any outliers or anomalies in the data.
+
+## Modeling Building:
+Various machine learning algorithms are used to build predictive models. The following models are considered:
+
+* Logistic Regression
+* Cross Validation
+* Decision Tree
+* XG Boost
+* Random Forest
+
+## Conclusion:
+Hence we got accuracy on different classification
+
+* logisitic regression got accuracy 88%
+
+* DecisionTree got accuracy 85%
+
+* xg boosting got accuracy 90%
+
+* Random Forest got accuracy 92%
+
+Random Forest is having the highest Cross Validation Score with 0.922 followed by XGBoost with 0.909.
+
+Based on all the model evaluation techniques we can say that Random Forest is the best model for our project to predict credit card approval.
+
+The project demonstrates the process of building a machine learning model to predict credit card approval status, starting from data preprocessing to model deployment. The deployed model can assist financial institutions in automating the credit card approval process.
 
